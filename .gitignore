@@ -1,0 +1,17 @@
+# 凭证与运行时状态，绝不入库
+*.json
+*.enc
+*.bak*
+.env*
+cookies*
+*state*
+boss-message-heartbeat.json
+
+# 缓存与编译产物
+__pycache__/
+*.pyc
+.last_send_ts
+*.log
+
+# 系统文件
+.DS_Store
